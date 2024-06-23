@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- phone library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <!-- main css file -->
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="logo-img">
+            <h1>
+              <a href="#">
+                <img
+                  src="../images/main-images/main-logo.png"
+                  class="w-100 d-block"
+                  alt=" apex brand logo"
+                />
+              </a>
+            </h1>
+          </div>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent-1"
+            aria-controls="navbarSupportedContent-1"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-1">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-capitalize">
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link arrow-hover" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-lg-4 position-relative hover-parent">
+                <a class="nav-link arrow-hover" href="#">industries</a>
+                <div
+                  class="hover-dropdown position-absolute top-0 left-0 gap-4"
+                >
+                  <ul
+                    class="list-group list-group-flush line-right position-relative"
+                  >
+                    <li class="list-group-item border-0">
+                      <a href="#">healthcare and pharmaceutical</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="#">Automotive</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="#">FMCG</a>
+                    </li>
+                  </ul>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0">
+                      <a href="#">Real Estate</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="#">Public and governmental agencies</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                      <a href="#">Travel and hospitality</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown mx-lg-4">
+                <a
+                  class="nav-link dropdown-toggle arrow-hover"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  consulting services
+                </a>
+                <ul class="dropdown-menu border-0 rounded-0">
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Business Governance</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Financial and accounting consultation</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Supply chain consultancy</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Research consultancy</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mx-lg-4">
+                <a
+                  class="nav-link dropdown-toggle arrow-hover"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  about us
+                </a>
+                <ul class="dropdown-menu border-0 rounded-0">
+                  <li><a class="dropdown-item" href="about.html">who we are</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >our people & leadership</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">our clients & partners</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a href="contact.html" class="main-hover btn contact-btn">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="about-header">
+          <div class="container-fluid">
+            <div
+              class="h-title mx-auto d-lg-flex ps-lg-5 align-items-center justify-content-center gap-3"
+            >
+              <span class="d-block mb-3 h-icon align-self-start">
+                <img
+                  src="../icons/grren-white-arrow.png"
+                  alt="icon"
+                  class="w-100 d-block"
+                />
+              </span>
+              <h2
+                class="text-white text-center text-capitalize align-self-center"
+              >
+                contact us
+              </h2>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="contact-form">
+          <div class="container">
+            <div class="contact-content">
+              <div class="row gy-4 gx-5">
+                <div class="col-lg-8 order-lg-1">
+                  <form class="row gx-3 gy-5 mt-4" id="login">
+                    <div class="col-lg-6">
+                      <label for="firstName" class="form-label"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        name="firstName"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="lastName" class="form-label">Last Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        name="lastName"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        name="phone"
+                      />
+                    </div>
+                    <div class="col-lg-8">
+                      <label for="message" class="form-label"
+                        >Message</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        placeholder="Write Your Message"
+                        rows="1"
+                        name="message"
+                      ></textarea>
+                    </div>
+                    <div class="col-lg-5 ms-auto">
+                      <button type="submit" class="btn col-12 col-lg-10">
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-lg-4">
+                  <div class="communication contact-us py-5 position-relative">
+                <div class="container">
+                  <div class="c-list position-relative">
+                    <div class="row g-0">
+                      <div class="col-12">
+                        <div
+                          class="c-card text-white b-contact px-4 py-5 d-md-flex"
+                        >
+                          <div>
+                            <span class="c-icon">
+                              <img
+                                src="../icons/location.png"
+                                alt="address icon"
+                              />
+                            </span>
+                            <h6 class="text-capitalize d-inline fs-5 ms-2">
+                              address
+                            </h6>
+                            <span class="d-block fs-5 fw-light mt-3"
+                              >6th of october, giza</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div
+                          class="c-card text-white b-contact px-4 py-5 d-md-flex"
+                        >
+                          <div>
+                            <span class="c-icon">
+                              <img
+                                src="../icons/message.png"
+                                alt="address icon"
+                              />
+                            </span>
+                            <h6 class="text-capitalize d-inline fs-5 ms-2">
+                              email
+                            </h6>
+                            <span class="d-block fs-5 fw-light mt-3"
+                              ><a href="#">http://www.apex.com</a></span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div
+                          class="c-card text-white px-4 py-5 d-md-flex"
+                        >
+                          <div>
+                            <span class="c-icon">
+                              <img
+                                src="../icons/phone.png"
+                                alt="address icon"
+                              />
+                            </span>
+                            <h6 class="text-capitalize d-inline fs-5 ms-2">
+                              phone
+                            </h6>
+                            <span class="d-block fs-5 fw-light mt-3 z-1"
+                              ><a
+                                href="tel:+20105656564"
+                                class="z-3 position-relative"
+                                >+20105656564</a
+                              ></span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dot-image"></div>
+                  </div>
+                  <img
+                    src="../images/home-page/dotts/contact-right.png"
+                    alt=""
+                    class="dot-image"
+                  />
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+            <div class="footer">
+              <div class="footer-links">
+                <div class="container">
+                  <div class="row gy-5">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                      <div class="f-header d-flex gap-5">
+                        <span class="d-block col-lg-2">
+                          <img
+                            src="../icons/grren-white-arrow.png"
+                            alt="icon"
+                            class="w-100 d-block"
+                          />
+                        </span>
+                        <div class="f-cion position-relative">
+                          <img
+                            src="../images/home-page/footer-img.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                      <div class="quick-links">
+                        <h3 class="text-white text-capitalize fw-bold fs-2">
+                          quick links
+                        </h3>
+                        <ul class="list-group">
+                          <li
+                            class="list-group-item border-0 text-capitalize arrow position-relative ps-5"
+                          >
+                            <a href="#"> who we serve</a>
+                          </li>
+                          <li class="list-group-item border-0 text-capitalize">
+                            <a href="#">industries</a>
+                          </li>
+                          <li class="list-group-item border-0 text-capitalize">
+                            <a href="#">about us</a>
+                          </li>
+                          <li class="list-group-item border-0 text-capitalize">
+                            <a href="#">contact us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                      <div>
+                        <h3 class="text-white text-capitalize fw-bold fs-2">
+                          follow us
+                        </h3>
+                        <ul class="social-list d-flex gap-3 text-white ps-0">
+                          <li class="social-icon">
+                            <a href="#">
+                              <i class="fa-brands fa-2x fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li class="social-icon">
+                            <a href="#">
+                              <i class="fa-brands fa-2x fa-threads"></i>
+                            </a>
+                          </li>
+                          <li class="social-icon">
+                            <a href="#">
+                              <i class="fa-brands fa-2x fa-x-twitter"></i>
+                            </a>
+                          </li>
+                          <li class="social-icon">
+                            <a href="#">
+                              <i class="fa-brands fa-2x fa-facebook"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </main>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- country code library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+    </script>
+  </body>
+</html>
