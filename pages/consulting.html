@@ -55,9 +55,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-1">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-capitalize">
             <li class="nav-item mx-lg-4">
-              <a class="nav-link arrow-hover" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link arrow-hover" href="../index.html">Home</a>
             </li>
             <li class="nav-item mx-lg-4 position-relative hover-parent">
               <a class="nav-link arrow-hover" href="#">industries</a>
@@ -125,7 +123,9 @@
                 about us
               </a>
               <ul class="dropdown-menu border-0 rounded-0">
-                <li><a class="dropdown-item" href="about.html">who we are</a></li>
+                <li>
+                  <a class="dropdown-item" href="about.html">who we are</a>
+                </li>
                 <li>
                   <a class="dropdown-item" href="#">our people & leadership</a>
                 </li>
@@ -135,7 +135,9 @@
               </ul>
             </li>
           </ul>
-          <a href="contact.html" class="main-hover btn contact-btn">Contact Us</a>
+          <a href="contact.html" class="main-hover btn contact-btn"
+            >Contact Us</a
+          >
         </div>
       </div>
     </nav>
@@ -289,7 +291,7 @@
           </div>
         </div>
       </header>
-      <nav class="navbar navbar-expand-lg p-0 body-nav con-nav mt-3  mt-lg-0">
+      <nav class="navbar navbar-expand-lg p-0 body-nav con-nav mt-3 mt-lg-0">
         <div class="container">
           <button
             class="navbar-toggler border-0"
@@ -2735,29 +2737,37 @@
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
     <script>
-    $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
-      var activated_tab = e.target // activated tab
-      var previous_tab = e.relatedTarget // previous tab
-      if(activated_tab.id === 'accounting-tab') {
-        $('#accounting-body').css('display', 'block');
-        $('#market-body').css('display', 'none');
-        $('#hr-body').css('display', 'none');
-      };
-      if(activated_tab.id === 'market-tab') {
-        $('#accounting-body').css('display', 'none');
-        $('#market-body').css('display', 'block');
-        $('#hr-body').css('display', 'none');
-      }
-      if(activated_tab.id === 'hr-tab') {
-        $('#accounting-body').css('display', 'none');
-        $('#market-body').css('display', 'none');
-        $('#hr-body').css('display', 'block');
-      }
-      // 処理,,,,,
-    });
-  </script>
+      $('button[data-bs-toggle="tab"]').on("shown.bs.tab", function (e) {
+        var activated_tab = e.target; // activated tab
+        var previous_tab = e.relatedTarget; // previous tab
+        if (activated_tab.id === "accounting-tab") {
+          $("#accounting-body").css("display", "block");
+          $("#market-body").css("display", "none");
+          $("#hr-body").css("display", "none");
+        }
+        if (activated_tab.id === "market-tab") {
+          $("#accounting-body").css("display", "none");
+          $("#market-body").css("display", "block");
+          $("#hr-body").css("display", "none");
+        }
+        if (activated_tab.id === "hr-tab") {
+          $("#accounting-body").css("display", "none");
+          $("#market-body").css("display", "none");
+          $("#hr-body").css("display", "block");
+        }
+        // 処理,,,,,
+      });
+    </script>
   </body>
 </html>

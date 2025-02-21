@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="logo-img">
+          <h1>
+            <a href="#">
+              <img
+                src="./images/main-images/main-logo.png"
+                class="w-100 d-block"
+                alt=" apex brand logo"
+              />
+            </a>
+          </h1>
+        </div>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-capitalize">
+            <li class="nav-item mx-lg-4">
+              <a class="nav-link active-green arrow-hover" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-lg-4 position-relative hover-parent">
+              <a class="nav-link arrow-hover" href="#">industries</a>
+              <div class="hover-dropdown position-absolute top-0 left-0 gap-4">
+                <ul
+                  class="list-group list-group-flush line-right position-relative"
+                >
+                  <li class="list-group-item border-0">
+                    <a href="#">healthcare and pharmaceutical</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="#">Automotive</a>
+                  </li>
+                  <li class="list-group-item border-0"><a href="#">FMCG</a></li>
+                </ul>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item border-0">
+                    <a href="#">Real Estate</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="#">Public and governmental agencies</a>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <a href="#">Travel and hospitality</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown mx-lg-4">
+              <a
+                class="nav-link dropdown-toggle arrow-hover"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                consulting services
+              </a>
+              <ul class="dropdown-menu border-0 rounded-0">
+                <li>
+                  <a class="dropdown-item" href="consulting.html">Marketing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Business Governance</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Financial and accounting consultation</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Supply chain consultancy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Research consultancy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-lg-4">
+              <a
+                class="nav-link dropdown-toggle arrow-hover"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                about us
+              </a>
+              <ul class="dropdown-menu border-0 rounded-0">
+                <li>
+                  <a class="dropdown-item" href="./pages/about.html"
+                    >who we are</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">our people & leadership</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">our clients & partners</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="contact.html" class="main-hover btn contact-btn"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- ====header==== -->
+    <main>
+      <header id="home">
+        <div class="main-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-1">
+                <img
+                  src="./images/home-page/header-image.png"
+                  alt="header image"
+                  class="w-100 d-block mb-4 mb-md-0 header-img position-relative"
+                />
+              </div>
+              <div class="col-md-6 align-self-center">
+                <div class="text-content d-md-flex gap-3">
+                  <span class="main-title-icon d-block">
+                    <img
+                      src="./icons/grren-white-arrow.png"
+                      alt="icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <div class="text mb-5">
+                    <h2 class="m-0 fw-bold">our team</h2>
+                    <p>
+                      comprises consultants with a collective experience
+                      spanning 135 years across diverse fields and industries.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="contact.html"
+                  class="btn d-flex col-12 col-md-6 col-lg-4 justify-content-center rounded-0 align-items-center border-1 text-white border-white"
+                >
+                  contact Us
+                  <span class="d-block main-icon-hover">
+                    <img
+                      src="./icons/button-arrow.png"
+                      alt="transparent arrow"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ====vision==== -->
+      <section id="vision">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-6 order-md-1 mb-5 mb-md-0">
+              <div class="v-text-content">
+                <div class="section-title d-md-flex gap-3">
+                  <span class="main-title-icon d-block col-2">
+                    <img
+                      src="./icons/green-gray-arrow.png"
+                      alt="icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <div>
+                    <h2 class="text-capitalize fw-bolder">vision</h2>
+                    <p class="fs-4 fw-bold w-75">
+                      Our vision is to be a leading consulting firm operating
+                      worldwide
+                    </p>
+                    <div class="cards">
+                      <div class="box w-100 mb-3 p-4">
+                        <div class="row">
+                          <div class="col-2">
+                            <span class="img-container">
+                              <img
+                                src="./icons/arrow-bg.png"
+                                alt="arrow card"
+                                class="w-100 d-block"
+                              />
+                            </span>
+                          </div>
+                          <div class="col-10">
+                            <p class="">
+                              setting the standard for excellence in our
+                              industry.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box w-100 p-4 ms-lg-5">
+                        <div class="row">
+                          <div class="col-2">
+                            <span class="img-container">
+                              <img
+                                src="./icons/arrow-bg.png"
+                                alt="arrow card"
+                                class="w-100 d-block"
+                              />
+                            </span>
+                          </div>
+                          <div class="col-10">
+                            <p>
+                              We strive to inspire and empower our clients to
+                              achieve their full potential, driving positive
+                              change on a global scale.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="contact.html"
+                class="btn d-flex col-4 col-md-6 col-lg-4 justify-content-center rounded-0 border-black d-none d-md-flex mt-5"
+              >
+                contact Us
+                <span class="main-icon-hover">
+                  <img
+                    src="./icons/button-arrow-dark.png"
+                    alt="transparent arrow"
+                    class="w-100 d-block"
+                  />
+                </span>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <div class="v-image-container position-relative z-1">
+                <span class="arrow-icons-container arrow-top">
+                  <span class="gray-arrow d-block">
+                    <img
+                      src="./icons/graay-arrow.png"
+                      alt="gray arrow"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <span class="green-arrow d-block">
+                    <img
+                      src="./icons/green-arrow.png"
+                      alt="gray arrow"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                </span>
+                <img
+                  src="./images/home-page/vision.png"
+                  alt="vision image"
+                  class="w-100 d-block z-3 position-relative"
+                />
+                <span class="arrow-icons-container arrow-bottom">
+                  <span class="gray-arrow d-block">
+                    <img
+                      src="./icons/graay-arrow.png"
+                      alt="gray arrow"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <span class="green-arrow d-block">
+                    <img
+                      src="./icons/green-arrow.png"
+                      alt="gray arrow"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                </span>
+              </div>
+              <a
+                href="./pages/contact.html"
+                class="btn border-black d-flex col-12 col-md-6 col-lg-4 justify-content-center rounded-0 align-items-center white-bg-button d-md-none mt-5"
+              >
+                contact Us
+                <span class="main-icon-hover">
+                  <img
+                    src="./icons/button-arrow-dark.png"
+                    alt="transparent arrow"
+                    class="w-100 d-block"
+                  />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====mission==== -->
+      <section id="mission">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <img
+              src="./images/home-page/mission-image-mobile.png"
+              alt="mission"
+              class="w-100 d-block d-md-none"
+            />
+            <img
+              src="./images/home-page/mission-image.png"
+              alt="mission"
+              class="h-100 w-100 d-none d-md-block"
+            />
+          </div>
+          <div class="col-lg-6 align-self-end">
+            <div class="container">
+              <div class="m-text-content ps-lg-4">
+                <span class="d-block col-1">
+                  <img
+                    src="./icons/grren-white-arrow.png"
+                    alt="icon"
+                    class="w-100 d-block"
+                  />
+                </span>
+                <div class="text">
+                  <h2 class="m-0 fw-bold text-capitalize text-white">
+                    mission
+                  </h2>
+                  <div class="m-cards-container">
+                    <div class="m-card d-flex p-2">
+                      <span class="ittr-mission col-2">
+                        <img
+                          src="./icons/Polygon.png"
+                          alt="polygon"
+                          class="d-block"
+                        />
+                      </span>
+                      <p class="lead text-white-50 w-75">
+                        Our mission is to provide our clients with cutting-edge
+                        solutions that exceed their expectations, delivered with
+                        a level of expertise and dedication that inspires trust
+                        and confidence.
+                      </p>
+                    </div>
+                    <div class="m-card d-flex p-2">
+                      <span class="ittr-mission col-2">
+                        <img
+                          src="./icons/Polygon.png"
+                          alt="polygon"
+                          class="d-block"
+                        />
+                      </span>
+                      <p class="lead text-white-50 w-75">
+                        Our mission is to provide our clients with cutting-edge
+                        solutions that exceed their expectations, delivered with
+                        a level of expertise and dedication that inspires trust
+                        and confidence.
+                      </p>
+                    </div>
+                    <a
+                      class="btn d-flex col-12 col-md-6 col-lg-4 justify-content-center rounded-0 align-items-center border-1 text-white border-white mt-5"
+                    >
+                      contact Us
+                      <span class="main-icon-hover">
+                        <img
+                          src="./icons/button-arrow.png"
+                          alt="transparent arrow"
+                          class="w-100 d-block"
+                        />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====values==== -->
+      <section id="values">
+        <div class="v-title d-lg-none p-5">
+          <span class="d-block col-4 col-lg-3">
+            <img
+              src="./icons/grren-white-arrow.png"
+              alt="icon"
+              class="w-100 d-block"
+            />
+          </span>
+          <h2 class="m-0 fw-bold text-capitalize ms-2 fs-1 text-white">
+            values
+          </h2>
+        </div>
+        <div class="container">
+          <div class="v-title d-lg-flex p-5 d-none">
+            <span class="d-block col-4 col-lg-3">
+              <img
+                src="./icons/grren-white-arrow.png"
+                alt="icon"
+                class="w-100 d-block"
+              />
+            </span>
+            <h2 class="m-0 fw-bold text-capitalize ms-2 fs-1 text-white">
+              values
+            </h2>
+          </div>
+          <div class="v-items">
+            <div class="row g-0 px-4 px-lg-0 gy-3 gy-lg-0">
+              <div class="col-lg-6">
+                <div class="item-layer item px-5 py-4">
+                  <span class="item-icon mb-3">
+                    <img
+                      src="./icons/value-clint.png"
+                      alt="clint icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <h3 class="text-capitalize fw-bold">client satisfaction</h3>
+                  <p class="mt-4 mb-5">
+                    We evaluate our achievement through the success of our
+                    clients. We cultivate enduring trust-based relationships.
+                  </p>
+                  <a class="read-link text-capitalize" href="#"> read more </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item px-5 py-4">
+                  <span class="item-icon mb-3">
+                    <img
+                      src="./icons/value-ethical.png"
+                      alt="clint icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <h3 class="text-capitalize fw-bold">ethical conduct</h3>
+                  <p class="mt-4 mb-5">
+                    We prioritize honesty, trustworthiness, and upholding high
+                    ethical principles.
+                  </p>
+                  <a class="read-link text-capitalize" href="#"> read more </a>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="item-layer item px-5 py-4">
+                  <span class="item-icon mb-3">
+                    <img
+                      src="./icons/value-technology.png"
+                      alt="clint icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <h3 class="text-capitalize fw-bold">
+                    technological advancement
+                  </h3>
+                  <p class="mt-4 mb-5">
+                    We leverage technology to perpetually refine our processes,
+                    procedures, and services, surpassing the expectations of
+                    those we assist.
+                  </p>
+                  <a class="read-link text-capitalize" href="#"> read more </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item px-5 py-4">
+                  <span class="item-icon mb-3">
+                    <img
+                      src="./icons/value-quality.png"
+                      alt="clint icon"
+                      class="w-100 d-block"
+                    />
+                  </span>
+                  <h3 class="text-capitalize fw-bold">commitment to quality</h3>
+                  <p class="mt-4 mb-5">
+                    We pursue excellence across all endeavors, promoting quality
+                    and sustainability. We innovate solutions, foster novel
+                    ideas, and embrace diverse perspectives.
+                  </p>
+                  <a class="read-link text-capitalize" href="#"> read more </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====contact==== -->
+      <section id="contact">
+        <div class="contact">
+          <div
+            class="c-title m-auto d-lg-flex justify-content-lg-center align-items-center gap-3 mx-auto"
+          >
+            <span class="d-block d-lg-none col-2">
+              <img
+                src="./icons/green-gray-arrow.png"
+                alt="icon"
+                class="w-100 d-block"
+              />
+            </span>
+            <span
+              class="d-none d-lg-block arrow-icons-container arrow-top position-relative align-self-start"
+            >
+              <span class="gray-arrow d-block">
+                <img
+                  src="./icons/graay-arrow.png"
+                  alt="gray arrow"
+                  class="w-100 d-block"
+                />
+              </span>
+              <span class="green-arrow d-block">
+                <img
+                  src="./icons/green-arrow.png"
+                  alt="gray arrow"
+                  class="w-100 d-block"
+                />
+              </span>
+            </span>
+            <h2 class="text-capitalize fs-1 fw-bold pb-5">contact us</h2>
+          </div>
+          <div class="ask-message py-5">
+            <div class="container">
+              <h4 class="text-center text-capitalize text-white mb-4">
+                you can now ask for anything about consulting services!
+              </h4>
+              <div class="ask-container col-md-8 col-lg-5 mx-auto">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control rounded-0"
+                    placeholder="Enter your email now"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn fs-5 rounded-0 px-3 text-white"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="footer">
+          <div class="communication py-5 position-relative">
+            <div class="container">
+              <div class="c-list position-relative">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div
+                      class="c-card text-white b-contact px-4 py-5 d-md-flex justify-content-center"
+                    >
+                      <div>
+                        <span class="c-icon">
+                          <img src="./icons/location.png" alt="address icon" />
+                        </span>
+                        <h6 class="text-capitalize d-inline fs-5 ms-2">
+                          address
+                        </h6>
+                        <span class="d-block fs-5 fw-light mt-3"
+                          >6th of october, giza</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div
+                      class="c-card text-white b-contact px-4 py-5 d-md-flex justify-content-center"
+                    >
+                      <div>
+                        <span class="c-icon">
+                          <img src="./icons/message.png" alt="address icon" />
+                        </span>
+                        <h6 class="text-capitalize d-inline fs-5 ms-2">
+                          email
+                        </h6>
+                        <span class="d-block fs-5 fw-light mt-3"
+                          ><a href="#">http://www.apex.com</a></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div
+                      class="c-card text-white px-4 py-5 d-md-flex justify-content-center"
+                    >
+                      <div>
+                        <span class="c-icon">
+                          <img src="./icons/phone.png" alt="address icon" />
+                        </span>
+                        <h6 class="text-capitalize d-inline fs-5 ms-2">
+                          phone
+                        </h6>
+                        <span class="d-block fs-5 fw-light mt-3 z-1"
+                          ><a
+                            href="tel:+20105656564"
+                            class="z-3 position-relative"
+                            >+20105656564</a
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dot-image"></div>
+              </div>
+              <img
+                src="./images/home-page/dotts/contact-right.png"
+                alt=""
+                class="dot-image"
+              />
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="container">
+              <div class="row gy-5">
+                <div class="col-lg-4 d-flex justify-content-center">
+                  <div class="f-header d-flex gap-5">
+                    <span class="d-block col-lg-2">
+                      <img
+                        src="./icons/grren-white-arrow.png"
+                        alt="icon"
+                        class="w-100 d-block"
+                      />
+                    </span>
+                    <div class="f-cion position-relative">
+                      <img src="./images/home-page/footer-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                  <div class="quick-links">
+                    <h3 class="text-white text-capitalize fw-bold fs-2">
+                      quick links
+                    </h3>
+                    <ul class="list-group">
+                      <li
+                        class="list-group-item border-0 text-capitalize arrow position-relative ps-5"
+                      >
+                        <a href="#"> who we serve</a>
+                      </li>
+                      <li class="list-group-item border-0 text-capitalize">
+                        <a href="#">industries</a>
+                      </li>
+                      <li class="list-group-item border-0 text-capitalize">
+                        <a href="#">about us</a>
+                      </li>
+                      <li class="list-group-item border-0 text-capitalize">
+                        <a href="#">contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                  <div>
+                    <h3 class="text-white text-capitalize fw-bold fs-2">
+                      follow us
+                    </h3>
+                    <ul class="social-list d-flex gap-3 text-white ps-0">
+                      <li class="social-icon">
+                        <a href="#">
+                          <i class="fa-brands fa-2x fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="social-icon">
+                        <a href="#">
+                          <i class="fa-brands fa-2x fa-threads"></i>
+                        </a>
+                      </li>
+                      <li class="social-icon">
+                        <a href="#">
+                          <i class="fa-brands fa-2x fa-x-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="social-icon">
+                        <a href="#">
+                          <i class="fa-brands fa-2x fa-facebook"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
